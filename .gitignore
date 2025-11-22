@@ -1,0 +1,76 @@
+# 编译产生的二进制文件
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.bin
+
+# 可执行脚本（如果你不想提交有执行权限的脚本）
+# 但通常 Shell 脚本是需要提交的，所以这行可能不需要
+# *.sh
+
+# 日志文件
+*.log
+*.log.*
+logs/
+*.logs
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.\#*
+\#*#
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.un~
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 测试相关的临时文件
+test_output/
+test-results/
+coverage/
+
+# 用户特定的配置文件（如果有）
+.config/
+.local/
+
+# 包管理相关的目录（如果用到）
+vendor/
+node_modules/  # 如果项目涉及 Node.j
+
+# 大型数据文件
+*.csv
+*.dat
+*.data
+*.db
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# 密码和敏感信息（重要！）
+*.key
+*.pem
+*.crt
+*.secret
+.env
+.config
