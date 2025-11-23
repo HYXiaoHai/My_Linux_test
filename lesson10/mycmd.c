@@ -1,4 +1,5 @@
 #include <stdio.h>
+int flag =1;
 int Sum(int s, int e)
 {
  int result = 0;
@@ -7,7 +8,7 @@ int Sum(int s, int e)
  {
  result += i;
  }
- return result;
+ return result*flag;
 }
 int main()
 {
